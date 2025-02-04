@@ -1,0 +1,33 @@
+<ion-card>
+  <ion-item>
+    <ion-avatar aria-hidden="true" slot="start">
+      <img alt="Avatar de {{avatarUrl}}" [src]="avatarUrl" />
+    </ion-avatar>
+    <ion-label>
+      <strong>{{username}}</strong> <br>
+      <ion-note>{{location}}</ion-note>
+    </ion-label>
+    <ion-icon name="ellipsis-horizontal" slot="end" aria-hidden="true"></ion-icon>
+  </ion-item>
+  <img alt="Publicacion {{imagenUrl}}" [src]="imagenUrl" />
+  <ion-item>
+    <ion-buttons slot="start">
+      <ion-icon size="large" name="heart-outline" aria-hidden="true"></ion-icon>
+      <ion-icon size="large" name="chatbubble-outline" aria-hidden="true"></ion-icon>
+      <ion-icon size="large" name="paper-plane-outline" aria-hidden="true"></ion-icon>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-icon size="large" name="bookmark-outline" aria-hidden="true"></ion-icon>
+    </ion-buttons>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>
+      <ion-note><strong>1,800 Likes</strong></ion-note>
+    </ion-label>
+  </ion-item>
+
+  <ion-label>
+    <strong>{{username}}</strong><br>
+    <p>Hola, soy David, desarrollador de software multiplataforma.</p>
+  </ion-label>
